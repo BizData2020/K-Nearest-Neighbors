@@ -6,21 +6,18 @@ import sys
 import os
 import numpy as np
 import pandas as pd
-from math import sqrt
-import warnings
-from collections import Counter
-import random
-
-from sklearn import preprocessing, cross_validation, neighbors
-
-from matplotlib import style
-
 import matplotlib.pyplot as plt
 import warnings
-
+import random
+from math import sqrt
+from collections import Counter
+from sklearn import preprocessing, cross_validation, neighbors
+from matplotlib import style
 
 
 """
+Our data source:
+
 http://archive.ics.uci.edu/ml/datasets.html
 
 http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
@@ -43,7 +40,7 @@ http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin
 """
 
 ############
-# here's out hand-written K Nearest Neighbors function:
+# here's our hand-written K Nearest Neighbors function:
 #
 # confidence can come from the classifier
 #
