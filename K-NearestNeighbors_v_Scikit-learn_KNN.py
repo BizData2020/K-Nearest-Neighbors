@@ -419,5 +419,5 @@ accuracy:  0.992857142857
 prediction#1:  [2]
 prediction#2:  [2 2]
 euclidean_distance:  2.23606797749979
-result:  r confidence#2:  1.0
+result:  r confidence#2:  1.0 
 """
